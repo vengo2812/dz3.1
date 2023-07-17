@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         BonusMilesService service = new BonusMilesService();
 
-        int myBonus = service.bonus(10000, 20);
+        int miles = service.calculate(25000);
 
-        System.out.println(myBonus);
+        System.out.println(miles);
     }
 }
